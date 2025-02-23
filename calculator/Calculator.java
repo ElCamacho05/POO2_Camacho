@@ -8,7 +8,7 @@ public class Calculator<T extends Number> {
     }
     public double average(){
         // Metodo que calcula el promedio del arreglo
-        int sum = 0;
+        Double sum = 0;
         // Suma de todos los numeros
         for(int i = 0; i<5; i++){
             sum+=nums[i].doubleValue(); // Conversion de cualquier tipo numerico a tipo double
